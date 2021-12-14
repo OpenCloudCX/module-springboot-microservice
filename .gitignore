@@ -1,0 +1,18 @@
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+secrets.auto.**
+variables.auto.tfvars
+
+!secrets.example.tfvars
+!variables.example.tfvars
+
+state.tf
+
+kubeconfig*
+.terraform.lock.hcl
+
