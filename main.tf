@@ -42,4 +42,8 @@ resource "spinnaker_pipeline" "pipeline" {
   application = spinnaker_application.application.application
   name        = "build and deploy"
   pipeline    = local.spinnaker_pipeline
+
+  depends_on = [
+    jenkins_job.microservice-build
+  ]
 }
