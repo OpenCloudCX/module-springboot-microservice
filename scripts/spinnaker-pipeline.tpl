@@ -7,7 +7,7 @@
     {
       "continuePipeline": false,
       "failPipeline": true,
-      "job": "spinnaker-microservice-build",
+      "job": "springboot-microservice-build",
       "master": "k8s-jenkins",
       "name": "Jenkins Build",
       "parameters": {},
@@ -211,5 +211,5 @@
       "type": "git"
     }
   ],
-  "updateTs": "1639528174000"
+  "updateTs": "1639535108000"
 }
