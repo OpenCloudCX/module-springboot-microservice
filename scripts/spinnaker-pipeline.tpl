@@ -7,7 +7,7 @@
     {
       "continuePipeline": false,
       "failPipeline": true,
-      "job": "springboot-microservice-build",
+      "job": "${jenkins_job_name}",
       "master": "k8s-jenkins",
       "name": "Jenkins Build",
       "parameters": {},
